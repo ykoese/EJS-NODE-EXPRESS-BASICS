@@ -1,0 +1,18 @@
+
+<% include partials/header %>
+
+        <%posts.forEach(post=>{%>
+            <li>
+                
+                <%=post.title %>-by <strong><%= post.author%></strong>
+            </li>
+                <%})%>
+                
+                <%posts.map(post=>{%>
+                    <li> 
+                <%=post.title%> -by <strong> <%=post.author%></strong>
+            </li>
+               <% })%>
+
+ <% include partials/footer %>
+

@@ -1,0 +1,11 @@
+
+<% include partials/header %>
+<%if(thingVar==='rusty') {%>
+    <h3>I love <%= thingVar %></h3>
+    <p><%= thingVar.toUpperCase() %> IS THE BEST CHOICE</p>
+<%} else {%>
+    <p><%= thingVar.toUpperCase() %> is a bad choice</p>
+    <% } %>
+
+    <p>This love.ejs file</p>
+    <% include partials/footer %>

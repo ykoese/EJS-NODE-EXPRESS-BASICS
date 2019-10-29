@@ -1,0 +1,14 @@
+
+<% include partials/header %>
+
+        <%flowers.map(flower=>{%>
+            <li >
+                    
+                <%=flower.name%>-produced in <strong> <%=flower.country%></strong>
+            </li>
+            <%})%>
+
+            <% include partials/footer %>
+        <!-- <link rel="stylesheet" href="/css/style.css" /> -->
+     
+
